@@ -75,3 +75,40 @@ header {
   gap: 10px;
   margin-bottom: 8px;
 }
+
+/* My-PLans section style */
+.container-2 {
+  padding: 0px 230px;
+  margin-bottom: 135px;
+}
+.container-2 > h2 {
+  text-align: center;
+  margin-bottom: 55.7px;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan {
+  text-align: center;
+}
+
+.plan-icon {
+  width: 92.958px;
+  height: 92.958px;
+}
+
+.plan-name {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.plan-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
