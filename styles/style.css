@@ -1,8 +1,25 @@
+/* Common shared style */
 * {
   margin: 0px;
   padding: 0px;
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
+}
+
+.description {
+  color: #151414;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background: #f15b22;
+  border: none;
+  border-radius: 5px;
+  padding: 21px 25px 20px 26px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /* header section style */
@@ -11,4 +28,20 @@ header {
   width: 1600px;
   height: 808px;
   flex-shrink: 0;
+}
+
+.header-content {
+  text-align: right;
+  padding: 216px 230px 186px 845px;
+}
+
+.header-content-tittle {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+#header-btn-1 {
+  margin-top: 32px;
 }
