@@ -112,3 +112,28 @@ header {
   font-size: 25px;
   font-weight: 500;
 }
+
+/* Awlays-keep-a-positive-mindset  section style*/
+.container-3 {
+  width: 1100px;
+  height: 300px;
+  padding: 0px 230px;
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  border-radius: 8px;
+  margin-bottom: 130px;
+}
+
+.container-3 section {
+  padding: 60px 617px 60px 64px;
+}
+.container-3 h2 {
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.container-3 button {
+  background-color: white;
+  color: #f15b22;
+}
