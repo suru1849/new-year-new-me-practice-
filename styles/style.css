@@ -27,7 +27,7 @@ header {
   background-image: url("../images/banner/banner1.png");
   width: 1600px;
   height: 808px;
-  flex-shrink: 0;
+  margin-bottom: 140px;
 }
 
 .header-content {
@@ -44,4 +44,32 @@ header {
 
 #header-btn-1 {
   margin-top: 32px;
+}
+
+/* My failures of previous year setction style */
+.container {
+  display: flex;
+  gap: 105px;
+  padding-left: 206px;
+  padding-right: 320px;
+}
+
+.content {
+  padding-top: 230px;
+}
+.content-tittle {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+#content-description {
+  margin-bottom: 16px;
+}
+
+.bullet-point .point {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
 }
