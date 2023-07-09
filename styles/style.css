@@ -22,6 +22,13 @@
   font-weight: 600;
 }
 
+.content-tittle {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
 /* header section style */
 header {
   background-image: url("../images/banner/banner1.png");
@@ -47,21 +54,16 @@ header {
 }
 
 /* My failures of previous year setction style */
-.container {
+.container-1 {
   display: flex;
   gap: 105px;
   padding-left: 206px;
   padding-right: 320px;
+  margin-bottom: 140px;
 }
 
 .content {
   padding-top: 230px;
-}
-.content-tittle {
-  color: #151414;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 24px;
 }
 
 #content-description {
