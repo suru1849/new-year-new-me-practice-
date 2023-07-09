@@ -22,6 +22,11 @@
   font-weight: 600;
 }
 
+#btn-secondary {
+  background-color: white;
+  color: #f15b22;
+}
+
 .content-tittle {
   color: #151414;
   font-size: 40px;
@@ -133,7 +138,61 @@ header {
   margin-bottom: 24px;
 }
 
-.container-3 button {
-  background-color: white;
-  color: #f15b22;
+/* Footer section style */
+
+footer {
+  display: flex;
+  gap: 330px;
+  padding: 130px 230px;
+  background-color: #151414;
+  color: #fff;
+}
+
+.tittle {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+#footer-p {
+  color: #fff;
+}
+
+.short-info {
+  margin-bottom: 24px;
+}
+
+.short-des {
+  margin-bottom: 16px;
+}
+
+.icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.colunm-content h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+
+.colunm-content input {
+  width: 325px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: #151414;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-bottom: 16px;
+}
+
+.colunm-content ::placeholder {
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 22px;
 }
